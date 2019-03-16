@@ -1,0 +1,416 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Cannix Documentation</title>
+	<link rel="stylesheet" href="assets/css/style.css" media="screen">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+</head>
+
+
+<body>
+	
+		<header>&ldquo;Cannix&rdquo; Documentation by &ldquo;3Forty Media&rdquo; v1.3.1</header>
+
+		<div>
+		
+		<h1 class="center">Cannix</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					By: 3Forty Media | Follow me on <a href="https://themeforest.net/user/3fortymedia/portfolio" target="_blank">Themeforest</a> | Follow me on <a href="https://twitter.com/340Media" target="_blank">Twitter</a> | Follow me on <a href="https://www.youtube.com/channel/UCBGyiqy8NwbW9lf39lt6x8w" target="_blank">YouTube</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+		</div><!-- end div .borderTop -->
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#intro">Introduction</a></li>
+			<li><a href="#install">Installation</a></li>
+			<li><a href="#update">Updating from v1.1 to v1.2</a></li>
+			<li><a href="#plugins">Plugins</a></li>
+			<li><a href="#customizer">Customizer</a></li>
+			<li><a href="#navigation">Navigation</a></li>
+			<li><a href="#widgets">Widgets</a></li>
+			<li><a href="#postformats">Post Formats</a></li>
+			<li><a href="#gutenberg">Gutenberg</a></li>
+			<li><a href="#themecustomize">Theme Customizations</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+			<li><a href="#changelog">Changelog</a></li>
+		</ol>
+
+		<h3 id="about"><strong>Introduction</strong> - <a href="#toc">top</a></h3>
+		<p>Thankyou for purchasing Cannix, I really hope you enjoy using Cannix as much as I enjoy developing it.</p>
+		<p>This document will help you get your theme installed and setup but if you do have questions please leave a comment or send me an email via my profile page.</p>
+		<p><b>If you love Cannix, please take a moment to rate it it really helps. Thanks so much!</b></p>
+		
+		<h3 id="install"><strong>Installation</strong> - <a href="#toc">top</a></h3>
+		<p>Once you have downloaded the zipped package to your computer, you will need to extract it to a location you choose. Then simply open that extracted folder and you will see <b>Cannix.zip</b>, this is your theme, and we just need to install it.</p>
+
+		<h4>Option 1. Wordpress Admin (Easy Method)</h4>
+		<p>Login to your WordPress Admin and go to: <i>Appearance > Themes.</i></p>
+		<img src="assets/media/appearance_themes.jpg" alt="">
+		<p>At the top of the screen click <b>Install Theme</b>. Next at the top of the screen click <b>Add New</b> and then click the <b>Upload Theme</b> button at the top of the screen. Click the browse button and locate <b>Cannix.zip</b> select it and press the <b>Install Now</b> button</p>
+
+		<p>Once installation is complete click <b>Activate</b> to activate the theme.</p>
+		<img src="assets/media/activate.jpg" alt="">
+
+		<h4>Option 2. FTP (Advanced Method)</h4>
+		<p>Extract Cannix.zip and upload the extracted Cannix folder to your wordpress installation themes folder /wp-content/themes/</p>
+		
+		<p><b>Finally</b> you need to activate the theme. Go to: <i>Apperance > Themes</i> and click <b>Activate</b> on the Cannix theme</p>
+
+		<h4>Demo Data</h4>
+		<p>If this is a fresh or first time installation you may find it helpful to import the data from the demo. I have supplied an XML file in your download that contains posts, comments and pages with the option to download associated media. To import this file go to: <i>Tools > Import</i> and Click <b>Run Importer</b></p>
+		<img src="assets/media/importer.jpg" alt="">
+		<p>Click the <b>Browse</b> button and locate the demo-data.xml file inside your download folder. Next click <b>Upload file and import</b>. Once the import is complete you will be asked if you would like to import media, this will download all the associated media for the posts and pages.</p>
+		<p class="notice">
+			All post images are from Unsplash or Pexels and are licensed CC0.
+		</p>
+
+		<h3 id="update"><strong>Updating from v1.1 to v1.2</strong></h3>
+
+		<p>Updating from v1.1 to v1.2 requires the installation of new plugins and re-configuration of some settings and widgets.</p>
+
+		<p><b>Step by step guide to updating Cannix</b></p>
+
+		<ol>
+			<li>Upload your new theme via FTP to your themes directory</li>
+			<li>Go to your WP dashboard: <i>Appearance > Themes</i> and click Cannix and check the version number is v1.2.x</li>
+			<li>Go to: Plugins where you will be prompted to download and install Cannix Theme Plugins, see <a href="#plugins">Plugins</a> below (this is the plugin that repalces the older 340media Theme Plugin)</li>
+			<li>Go to Appearance > Widgets and <b>Delete</b> <i>Cannix Posts Widget</i> and <i>Cannix Social Widget</i> from any sidebars.</li>
+			<li>Now Drag the new <i>Cannix Posts Widget</i> and <i>Cannix Social Widget</i> to the sidebars and configure as required and save.</li>
+		</ol>
+
+		<p>Now you will need to head on over to the Customizer <i>Appearance > Customize</i> and configure the new settings for each Cannix panel and save.</b></p>
+		<p>You can now <b>Delete</b> 340Media Theme Plugins</p>
+
+		<p class="notice">If you find that your theme is not displaying correctly after upgrading, update your settings in every Customizer Panel and Widget. This will update your database with the new settings</p>
+
+		<h3 id="plugins"><strong>Plugins</strong> - <a href="#toc">top</a></h3>
+
+		<p>Cannix requires a few essential plugins to beautify your theme with the features you see on the demo. Once you have installed your theme you will be prompted to download and install some required plugins and some recommended plugins.</p>
+
+		<img src="assets/media/tgm-plugins.jpg" alt="">
+
+
+		<p>Click begin installing plugins. This will take you to the <em>Install required plugins</em> page. To begin installing plugins, check each plugin you want to install and select <i>Install</i> from the drop down menu. This will install your plugins.</p>
+
+		<img src="assets/media/install-plugins.jpg" alt="">
+
+		<h4>Essential Plugins</h4>
+		<p><b>Cannix Theme Plugins</b><br />
+		This plugin is a collection of theme functions that provide all the good stuff for your theme; featured slider, post share buttons, post carousels and meta boxes</p>
+
+		<p><b>Regenerate Thumbnails</b><br />
+		This plugin enables you to batch resize all your thumbnails and feature images to the size used by Cannix. I highly recommend this plugin if you want to get the best out of Cannix.</p>
+
+		<p>All other plugins are supported by Cannix but it is your choice whether you install them or not</p>
+
+		<p>Once installed go to <i>Plugins > Installed Plugins</i> and click activate on each plugin you just installed.</p>
+
+
+		<h4>To complete theme installation</h4>
+
+		<p>Now your theme is installed and you have downloaded and activated at least the essential plugins. At this point I recommend <b>regenerating your thumbnails</b> which will create the sizes we need for your theme without changing or deleting any other sizes you already have. Let's do that now. Click <i>Tools > Regenerate Thumbnails</i></p>
+
+		<img src="assets/media/regen-thumbnails.jpg" alt="">
+
+		<p>All you have to do is click <i>Regenerate Thumbnails for All x Attachments</i>, then wait as your new thumbails are generated. Once complete you can view your homepage and see all your existing post thumbnails resized for your theme. Now you can head on over to the customizer and start updating settings.</p>
+
+		<h3 id="customizer"><strong>Customizer</strong> - <a href="#toc">top</a></h3>
+
+		<p><i><a href="https://youtu.be/MH0CKMGMEi8" target="_blank">Watch the Video</a></i></p>
+
+		<p>Cannix comes with several theme specific customization options. These are located in the WordPress Customizer which can be located in <i>Apperance > Customize</i>. All Cannix options are labelled <i>Cannix: Setting Name</i>. These options allow you to configure your theme and turn on/off included features</p>
+
+		<img src="assets/media/customizer.jpg" alt="">
+
+		<h4>Customization Options</h4>
+
+		<ul>
+			<li>Layout Settings</li>
+			<li>Single Post Settings</li>
+			<li>Social Media Settings</li>
+			<li>Footer Settings</li>
+			<li>Slide Out Sidebar Settings</li>
+			<li>Colour &amp; Font Settings</li>
+			<li>Custom Post Display Locations *</li>
+			<li>Featured Area Settings *</li>
+		</ul>
+
+		<p>* Install and activate the recommended Cannix theme Plugins if you do not see these options</p>
+
+		<p>We will go into more detail on some of these below, but before we do that lets look at the Site Identity setting and in particular choosing the correct logo for your blog.</p>
+
+		<h4>Uploading your logo</h4>
+
+		<p>Cannix is designed from the outset to support high resolution displays as standard. Whatever logo you upload Cannix will scale it down by 50%, this will then look great on high resolution displays. To ensure that your logo looks good across both standard and high resolution displays and at the size you want it to be, you need to upload a logo that is twice the size you want it displayed. <em>Here's an example: Appearance > Customize > Site Identity</em></p>
+
+		<p><img src="assets/media/logo_reg.png" alt=""><br />
+		1. Let's say this is the size you want your logo <b>on all displays</b></p>
+
+		<p><img src="assets/media/logo2x.png" alt=""><br />
+		2. This is the size you will need to upload, it is <b>twice the size</b> of the above logo</p>
+
+		<p><img src="assets/media/logo_reg.png" alt=""><br />
+		3. Cannix will scale the large logo down to this size</p>
+
+		<p class="notice">You can upload any orientaion logo (vertical/horizontal) and Cannix will scale it down by 50% and centralize it both horizontally and vertically</p>
+
+
+		<h3>Homepage</h3>
+
+		<p>Cannix supports four post layouts for your hompepage. Appearance > Customize > Cannix: Layout Settings</p>
+
+		<ul>
+			<li><b>Classic</b></li>
+			<li><b>Masonry</b></li>
+			<li><b>List</b></li>
+			<li><b>Grid</b></li>
+		</ul>
+
+		<p>You can also choose to show or hide the sidebar</p>
+
+		<p>Grid and Masonry will display 2 columns when the sidebar is enabled and 3 columns when the sidebar is disabled</p>
+
+		<h4>Featured Area</h4>
+
+		<p>Cannix includes 3 different featured post type options. Appearance > Customize > Cannix: Featured Area Settings</p>
+
+		<ul>
+			<li><b>Recent</b> - Will display your most recent posts</li>
+			<li><b>Popular</b> -  Will display the most popular posts based on comment count</li>
+			<li><b>Featured</b> -  Will display your posts marked as featured</li>
+		</ul>
+
+		<p>Additionally you can select a category to filter the results even more, for example selecting Recent Posts and a Category will display the most recent posts from the selected category.</p>
+
+		<p>You can also enter specific post ID's seperated by a comma (for example 18,256,23). If you enter specific post ID's all other settings will be ignored.</p>
+
+		<h3>Archive</h3>
+
+		<p>Cannix supports four post layouts for the archive. Appearance > Customize > Cannix: Layout Settings</p>
+
+		<ul>
+			<li><b>Classic</b></li>
+			<li><b>Masonry</b></li>
+			<li><b>List</b></li>
+			<li><b>Grid</b></li>
+		</ul>
+
+		<p>You can also choose to show or hide the sidebar</p>
+
+		<p>Grid and Masonry will display 2 columns when the sidebar is enabled and 3 columns when the sidebar is disabled</p>
+
+		<h3>Custom Post Display Locations</h3>
+
+		<p>Cannix includes multiple locations to display custom post loops: Before Content, After Content and Category Header. Additionally these can be setup as carousels if you want to display lots of posts. You have 4 post type options. Appearance > Customize > Cannix: Custom Post Display Locations</p>
+
+		<ul>
+			<li><b>Recent</b> - Will display your most recent posts</li>
+			<li><b>Popular</b> -  Will display the most popular posts based on comment count</li>
+			<li><b>Featured</b> -  Will display your posts marked as featured</li>
+		</ul>
+
+		<p>Additionally you can select a category to filter the results even more, for example selecting Recent Posts and a Category will display the most recent posts from the selected category.</p>
+
+		<p>You can also enter specific post ID's seperated by a comma (for example 18,256,23). If you enter specific post ID's all other settings will be ignored.</p>
+
+		<p class="notice">To activate the post carousel simply set "How many posts do you want to display" to a greater value than "How many posts to show per row". For example display 6 posts with 3 per row will activate the carousel.</p>
+
+		<h3>Theme Colour Editor</h3>
+
+		<p><i><a href="https://youtu.be/-Y2K6Rq8QxM" target="_blank">Watch the Video</a></i></p>
+
+		<p>You can change the core colour scheme and accent colours of Cannix. Appearance > Customize > Cannix: Colour Scheme Settings</p>
+
+		<img src="assets/media/customizer-colour-scheme.jpg" alt="">
+
+		<p class="notice">The customizer provides a quick and easy and way to change your colour scheme. For major style changes I recommend <a href="#themecustomize">installing the child theme</a> and writing your own CSS</p>
+
+		<h3><strong>Individual Post Colour Customization</strong></h3>
+
+		<p>As well as the theme colour editor Cannix allows you to change the colour of your posts at an individual level. In the new post/edit post page you are able to change the article background colour and the article entry text colour.</p>
+
+		<p>You can mix and match global colour changes in the customizer with individual post colour changes to highlight selected posts</p>
+
+		<img src="assets/media/in-post-colour-customizer.jpg" alt="">
+
+		<h3 id="navigation"><strong>Navigation</strong> - <a href="#toc">top</a></h3>
+
+		<p>Cannix has support for two menus: <i>Appearance > Menus</i>. At the very least you will need to create one <b>Primary</b> menu, other menus are optional</p>
+		<p>To create a new menu click <i>create a new menu</i> and save it. Once you have created your menu, assign it by checking the Display Location in Menu Settings and Save</p>
+		<img src="assets/media/menus.png" alt="">
+
+		<h4>Primary Menu</h4>
+		<p>This is the primary menu. It is located in the site header  and additionally within the slide out sidebar which acts as your toggle menu on small devices as well as a secondary menu and widget area. The primary menu supports 3 levels of hierarchy <i>Parent > Child > Grandchild</i> and the slide out sidebar supports unlimited levels</p>
+
+		<h4>Footer Menu</h4>
+		<p>This is the secondary footer menu. It is located on the right hand side of the footer</p>
+
+		<h3 id="widgets"><strong>Widgets</strong> - <a href="#toc">top</a></h3>
+
+		<p><i><a href="https://youtu.be/FpqV5TVX51o" target="_blank">Watch the Video</a></i></p>
+
+		<p>Cannix has two widgetized sidebars supporting all standard WordPress widgets and also a widget area in the footer just for the <a href="https://en-gb.wordpress.org/plugins/wp-instagram-widget/">WP Instagram Widget</a> called <b>Instagram Footer</b></p>
+
+		<p>To activate a widget go to: <i>Appearance > Widgets</i> and drag your widgets to the appropriate widget area. You can also manage your widgets inside the Customizer if you prefer.</p>
+		<p class="notice">Please note: The <b>Instagram Footer</b> widget area is designed only for the WP Instagram Widget, you may use a different Instagram Plugin but there will be no styling so may not look as intended.</p>
+
+		<h4>Setting up Instagram Footer</h4>
+
+		<p>One of the settings for the WP Instagram Widget is <i>Number of Photos</i>. Cannix supports a maximum of 6 per row but you can have as many rows as you need. here's how it works:</p>
+
+		<p><b>Up to 6 Photos</b> - Will be displayed in single row and break neatly into 2 rows at different browser resolutions</p>
+		<p><b>More than 6 Photos</b> - The number of photos you enter in the widget settings will be <b>divided by two</b> to give you 2 rows, so simply enter an even number that divides into two, for example: 8,10,12. That will give you 2 rows of 4, 2 rows of 5 or 2 rows of 6. This will break neatly into several rows at different browser resolutions.</p>
+
+		<h4>Cannix includes three custom widgets</h4>
+
+		<ul>
+			<li><b>About Me</b> - Display an image, short text and optional social media icons</li>
+			<li><b>Posts</b> - Display recent/popular/featured posts with image and entry meta</li>
+			<li><b>Social widget</b> - Display icons and links to your social media channels</li>
+		</ul>
+
+		<h4>Supported Plugins &amp; Widgets</h4>
+		<p>Cannix includes styling for the following third party Plugins and Widgets.</p>
+		<ul>
+			<li>WP Instagram</li>
+			<li>Contact Form 7</li>
+			<li>Mail Chimp</li>
+		</ul>
+
+		<h3 id="postformats"><strong>Post Formats</strong> - <a href="#toc">top</a></h3>
+
+		<p>Cannix supports 4 post formats</p>
+
+		<ul>
+			<li>Standard</li>
+			<li>Gallery</li>
+			<li>Video</li>
+			<li>Audio</li>
+			<li>Image</li>
+		</ul>
+
+		<p>Depending on which format you select for your posts the content, images and embeded media is uniquely displayed. Lets look at them.</p>
+
+		<img src="assets/media/post-formats.jpg" alt="">
+
+		<p><strong>Standard</strong><br />
+		Select this format for standard posts, you can emebed media, galleries, images and video as normal.</p>
+
+		<p><strong>Gallery</strong><br />
+		The gallery format is ideal for gallery posts where you have images you want to showcase. You should embed your galleries in the normal way and this post format will take all your galleries and <b>convert them to a unique slider</b> display in the post header. All your embeded galleries will be removed from the post leaving just your formatted entry text.</p>
+
+		<p>If you upload a featured image to a gallery post format, this will be the image displayed in archive loops, but no featured image will be displayed in single post view. If you do not upload a feature image the <b>first image in your gallery</b> will be used for archive loops.</p>
+
+		<p class="notice">If you do not want your galleries converted to a featured slider simply select the standard post format and your galleries will work as normal, jetpack is also supported for this method.</p>
+
+		<p><strong>Video/Audio</strong><br />
+		Select this format when you want to feature your embeded video in the featured header area of posts. If selected this format will take the first video/audio in your post and display it in the featured header area. Your first video/audio embed will then be removed from the post leaving your formatted text and any other media you have embeded.</p>
+
+		<p class="notice">You should <b>upload a featured image to video posts</b> as this will be displayed in carousels and post pagination. If you do not upload a featured image a placeholder image will be used.</p>
+
+		<p><strong>Image</strong></p>
+		<p>The image format produces an alternative display style in archive type views. The entry header will overlay the post thumbnail and no entry content will be displayed. Image format works just like a standard post for single post view.</p>
+
+		<h3 id="gutenberg"><strong>Gutenberg</strong> - <a href="#toc">top</a></h3>
+
+		<p>Cannnix v1.2 is compatible with the current development version of the Gutenberg editor (v3.9.0)</p>
+
+		<h4>Gutenberg post formats</h4>
+
+		<p>With the exception of <b>gallery</b> post format, all post formats work the same as the standard editor. Gallery post format in Gutenberg does not render a slideshow gallery as it does for the classic editor. Instead the new Gutenberg gallery block is used. You can still add a featured image.</p>
+
+		<h3 id="themecustomize">Theme customizations</h3>
+
+		<p>I have included a child theme on your download package called <b>Cannix-child.zip</b>. If you would like to customize your theme you may prefer to install the child theme via the same method described in the <a href="#install">Installation</a> section and make any changes you require directly to the child theme. The child theme will inherit all the functions and styling of the parent theme and leave you free to make any changes you need without affecting your main theme.</p>
+
+		
+		<h3 id="credits"><strong>Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've used the following images, icons or other files as listed.</p>
+		
+		<ul>
+			<li>PHP, HTML and CSS code by <b>3Forty Media</b></li>
+			<li><a href="http://kenwheeler.github.io/slick/">Slick</a> by Ken Wheeler</li>
+			<li><a href="http://fontawesome.io/">Font Awesome</a> by Dave Gandy</li>
+			<li>Post Images <a href="https://unsplash.com/">Unsplash</a> &amp; <a href="https://www.pexels.com/">Pexels</a></li>
+		</ul>
+
+		<h3 id="changelog"><strong>Changelog</strong> - <a href="#toc">top</a></h3>
+
+		<p>
+			February 15, 2019  - <strong>Version 1.3.1</strong>
+		</p>
+		<ul>
+			<li>Updated JS Files</li>
+			<li>Removed stray widgets file</li>
+			<li>Removed unnecessary prefixes</li>
+		</ul>
+
+		<p>
+			February 09, 2019  - <strong>Version 1.3</strong>
+		</p>
+		<ul>
+			<li>Moved all "plugin territory" functions to Cannix plugin</li>
+		</ul>
+
+		<p>
+			October 12, 2018  - <strong>Version 1.2.2</strong>
+		</p>
+		<ul>
+			<li>Fixed Google Fonts Setting</li>
+		</ul>
+
+		<p>
+			September 30, 2018  - <strong>Version 1.2.1</strong>
+		</p>
+		<ul>
+			<li>Improved Gutenberg Compatibility</li>
+			<li>Fixed Custom Colour Scheme CSS bug</li>
+		</ul>
+
+		<p>
+			September 26, 2018  - <strong>Version 1.2</strong>
+		</p>
+		<ul>
+			<li>Updated and released new plugins</li>
+			<li>Added Gutenberg compatiblity</li>
+			<li>Added additional social media channel support</li>
+			<li>Added additional customizer settings</li>
+			<li>Minor CSS updates</li>
+			<li>Added ability to toggle post meta</li>
+			<li>Improved colour options in Customizer</li>
+			<li>Updated slick version</li>
+			<li>Added font selection</li>
+		</ul>
+
+		<p>
+			June 09, 2018  - <strong>Version 1.1</strong>
+		</p>
+		<ul>
+			<li>Added ability to customize the colour of each individual post</li>
+			<li>Added additional social media channel support</li>
+			<li>Added additional customizer settings</li>
+			<li>Fixed JetPack media wrapper conflict</li>
+			<li>Minor CSS updates</li>
+			<li>Updated required plugin versions</li>
+		</ul>
+		
+		<p>
+			May 26, 2018  - <strong>Initial Release</strong>
+		</p>
+		
+		<p><a href="#toc">Go To Table of Contents</a></p>
+
+		</div>
+		
+	<script>
+window.onload = (function(){ prettyPrint(); });
+</script>
+</body>
+</html>

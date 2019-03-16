@@ -1,0 +1,1025 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-09-25 17:14+0100\n"
+"PO-Revision-Date: 2018-09-25 17:15+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: esc_html__;__;esc_attr_e;esc_html_e;html_e;_e;"
+"esc_attr_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:22
+msgid "Oh No, this page does not exist"
+msgstr ""
+
+#: 404.php:23
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: archive.php:27
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: archive.php:29
+msgid "Nothing Found"
+msgstr ""
+
+#: archive.php:35
+msgid "Category: "
+msgstr ""
+
+#: archive.php:75 comments.php:51 index.php:64 search.php:52
+msgid "Previous"
+msgstr ""
+
+#: archive.php:76 comments.php:52 index.php:65 search.php:53
+msgid "Next"
+msgstr ""
+
+#: comments.php:45
+msgid "Reply"
+msgstr ""
+
+#: comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:65
+msgid "back to top"
+msgstr ""
+
+#: functions.php:58
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:59
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:111
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions.php:113
+msgid "Add widgets here to appear in your right sidebar on all pages"
+msgstr ""
+
+#: functions.php:121
+msgid "Slide Out Sidebar"
+msgstr ""
+
+#: functions.php:123
+msgid "Add widgets here to appear in your slide out sidebar on all pages"
+msgstr ""
+
+#: functions.php:131
+msgid "Instagram Footer"
+msgstr ""
+
+#: functions.php:133
+msgid "Add your Instagram Widget here"
+msgstr ""
+
+#: functions.php:1010
+msgid " minute read"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:393
+#: inc/class-tgm-plugin-activation.php:912
+#: inc/class-tgm-plugin-activation.php:2618
+#: inc/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:394
+#: inc/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1019
+#: inc/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3594
+#: inc/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3594
+#: inc/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/customizer.php:18
+msgid "Cannix: Layout Settings"
+msgstr ""
+
+#: inc/customizer.php:30
+msgid "Homepage Post Layout"
+msgstr ""
+
+#: inc/customizer.php:34 inc/customizer.php:66 inc/customizer.php:1487
+#: inc/widgets.php:101
+msgid "List"
+msgstr ""
+
+#: inc/customizer.php:35 inc/customizer.php:67 inc/customizer.php:1488
+#: inc/widgets.php:103
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer.php:36 inc/customizer.php:68 inc/customizer.php:1489
+msgid "Masonry"
+msgstr ""
+
+#: inc/customizer.php:37 inc/customizer.php:69 inc/customizer.php:1490
+msgid "Classic"
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "Display Sidebar on Homepage"
+msgstr ""
+
+#: inc/customizer.php:62
+msgid "Archive Post Layout"
+msgstr ""
+
+#: inc/customizer.php:81
+msgid "Display Sidebar on Archive"
+msgstr ""
+
+#: inc/customizer.php:94
+msgid "Show Post Excerpt"
+msgstr ""
+
+#: inc/customizer.php:107
+msgid "Show Recent Comments in Post Loop"
+msgstr ""
+
+#: inc/customizer.php:120 inc/customizer.php:277 inc/customizer.php:611
+#: inc/customizer.php:788 inc/customizer.php:946 inc/customizer.php:1074
+msgid "Display Comment Count"
+msgstr ""
+
+#: inc/customizer.php:133 inc/customizer.php:290
+msgid "Display Post Author Meta"
+msgstr ""
+
+#: inc/customizer.php:146 inc/customizer.php:303
+msgid "Display Post Date Meta"
+msgstr ""
+
+#: inc/customizer.php:159 inc/customizer.php:316
+msgid "Display Post Category Meta"
+msgstr ""
+
+#: inc/customizer.php:172
+msgid "Display Post Read Time Meta"
+msgstr ""
+
+#: inc/customizer.php:188
+msgid "Display Share Icons in Post Loop"
+msgstr ""
+
+#: inc/customizer.php:203
+msgid "Display Sidebar on Pages"
+msgstr ""
+
+#: inc/customizer.php:212
+msgid "Cannix: Single Post Settings"
+msgstr ""
+
+#: inc/customizer.php:225
+msgid "Display Sidebar"
+msgstr ""
+
+#: inc/customizer.php:238
+msgid "Enable DropCaps"
+msgstr ""
+
+#: inc/customizer.php:251
+msgid "Display Author Bio"
+msgstr ""
+
+#: inc/customizer.php:264
+msgid "Display Custom Excerpt"
+msgstr ""
+
+#: inc/customizer.php:332
+msgid "Display Post Share Icons"
+msgstr ""
+
+#: inc/customizer.php:343
+msgid "Share Icons Position"
+msgstr ""
+
+#: inc/customizer.php:347 inc/customizer.php:1540
+msgid "Top and Bottom"
+msgstr ""
+
+#: inc/customizer.php:348 inc/customizer.php:1541
+msgid "Top Only"
+msgstr ""
+
+#: inc/customizer.php:349 inc/customizer.php:1542
+msgid "Bottom Only"
+msgstr ""
+
+#: inc/customizer.php:361
+msgid "Display Related Posts"
+msgstr ""
+
+#: inc/customizer.php:368
+msgid "Related Posts"
+msgstr ""
+
+#: inc/customizer.php:374
+msgid "Related Posts Title"
+msgstr ""
+
+#: inc/customizer.php:375 inc/customizer.php:667 inc/customizer.php:825
+msgid "Leave empty if you do not want a title"
+msgstr ""
+
+#: inc/customizer.php:387 inc/customizer.php:529 inc/customizer.php:730
+#: inc/customizer.php:888 inc/customizer.php:1016
+msgid "How many posts do you want to display"
+msgstr ""
+
+#: inc/customizer.php:389 inc/customizer.php:732 inc/customizer.php:890
+#: inc/customizer.php:1018
+msgid "More than 4 will activate the carousel"
+msgstr ""
+
+#: inc/customizer.php:401 inc/customizer.php:744 inc/customizer.php:902
+#: inc/customizer.php:1030
+msgid "How many posts to show per row"
+msgstr ""
+
+#: inc/customizer.php:405 inc/customizer.php:547 inc/customizer.php:748
+#: inc/customizer.php:906 inc/customizer.php:1034
+msgid "2"
+msgstr ""
+
+#: inc/customizer.php:406 inc/customizer.php:749 inc/customizer.php:907
+#: inc/customizer.php:1035
+msgid "3"
+msgstr ""
+
+#: inc/customizer.php:407 inc/customizer.php:750 inc/customizer.php:908
+#: inc/customizer.php:1036
+msgid "4"
+msgstr ""
+
+#: inc/customizer.php:417
+msgid "Relationship Method"
+msgstr ""
+
+#: inc/customizer.php:421 inc/customizer.php:1524
+msgid "Tags"
+msgstr ""
+
+#: inc/customizer.php:422 inc/customizer.php:1525
+msgid "Category"
+msgstr ""
+
+#: inc/customizer.php:436
+msgid "Cannix: Featured Area Settings"
+msgstr ""
+
+#: inc/customizer.php:448
+msgid "Check To Display Featured Area"
+msgstr ""
+
+#: inc/customizer.php:462
+msgid "Style"
+msgstr ""
+
+#: inc/customizer.php:466 inc/customizer.php:1557
+msgid "Default"
+msgstr ""
+
+#: inc/customizer.php:467 inc/customizer.php:1558
+msgid "Cover"
+msgstr ""
+
+#: inc/customizer.php:479 inc/customizer.php:680 inc/customizer.php:838
+#: inc/customizer.php:997
+msgid "Choose the type of posts you want to display"
+msgstr ""
+
+#: inc/customizer.php:482
+msgid ""
+"Make sure you upload a featured image to your posts for them to be included "
+"in the slider"
+msgstr ""
+
+#: inc/customizer.php:484 inc/customizer.php:660 inc/customizer.php:685
+#: inc/customizer.php:818 inc/customizer.php:843 inc/customizer.php:1002
+#: inc/customizer.php:1507
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/customizer.php:485 inc/customizer.php:686 inc/customizer.php:844
+#: inc/customizer.php:1003 inc/customizer.php:1508
+msgid "Popular Posts"
+msgstr ""
+
+#: inc/customizer.php:486 inc/customizer.php:687 inc/customizer.php:845
+#: inc/customizer.php:1004 inc/customizer.php:1509
+msgid "Featured Posts"
+msgstr ""
+
+#: inc/customizer.php:498 inc/customizer.php:699 inc/customizer.php:857
+msgid "Display posts from a category"
+msgstr ""
+
+#: inc/customizer.php:500 inc/customizer.php:701
+msgid ""
+"Tip: You can use in combination with post type selection for category "
+"specific filters"
+msgstr ""
+
+#: inc/customizer.php:515 inc/customizer.php:716 inc/customizer.php:874
+msgid "Post IDs"
+msgstr ""
+
+#: inc/customizer.php:516 inc/customizer.php:717 inc/customizer.php:875
+msgid ""
+"Enter a comma separated List of post IDs. Post Type and Category will be "
+"ignored"
+msgstr ""
+
+#: inc/customizer.php:542
+msgid "How many slides do you want to to show"
+msgstr ""
+
+#: inc/customizer.php:546
+msgid "1"
+msgstr ""
+
+#: inc/customizer.php:559
+msgid "Display Excerpt"
+msgstr ""
+
+#: inc/customizer.php:572 inc/customizer.php:762 inc/customizer.php:920
+#: inc/customizer.php:1048
+msgid "Display Author Meta"
+msgstr ""
+
+#: inc/customizer.php:585
+msgid "Display Date Meta"
+msgstr ""
+
+#: inc/customizer.php:598
+msgid "Display Category Meta"
+msgstr ""
+
+#: inc/customizer.php:629
+msgid "Cannix: Custom Post Display Locations"
+msgstr ""
+
+#: inc/customizer.php:630
+msgid "Edit the Post Carousels"
+msgstr ""
+
+#: inc/customizer.php:639
+msgid "Cannix: Before Content Posts Display"
+msgstr ""
+
+#: inc/customizer.php:642
+msgid ""
+"The Before Content Post Display is displayed after the featured area (if "
+"active) and before the post loop and sidebar. More than 4 posts will "
+"activate a carousel"
+msgstr ""
+
+#: inc/customizer.php:653 inc/customizer.php:811 inc/customizer.php:970
+msgid "Check To Display Posts"
+msgstr ""
+
+#: inc/customizer.php:666 inc/customizer.php:824 inc/customizer.php:983
+msgid "Title"
+msgstr ""
+
+#: inc/customizer.php:683 inc/customizer.php:841 inc/customizer.php:1000
+msgid ""
+"If displaying featured posts, make sure to check the posts you want to "
+"feature in the edit post dashboard"
+msgstr ""
+
+#: inc/customizer.php:775 inc/customizer.php:933 inc/customizer.php:1061
+msgid "Display Post Date"
+msgstr ""
+
+#: inc/customizer.php:797
+msgid "Cannix: After Content Posts Display"
+msgstr ""
+
+#: inc/customizer.php:800
+msgid ""
+"The After Content post display is displayed after post loop and sidebar and "
+"before the footer. More than 4 posts will activate a carousel"
+msgstr ""
+
+#: inc/customizer.php:859
+msgid ""
+"Tip: You can use in combination with post type selection for category "
+"specific filters. Uncategorized disables this setting"
+msgstr ""
+
+#: inc/customizer.php:956
+msgid "Cannix: Best In Category Posts Display"
+msgstr ""
+
+#: inc/customizer.php:959
+msgid ""
+"Display a selection of category specific posts in category pages. More than "
+"4 posts will activate a carousel"
+msgstr ""
+
+#: inc/customizer.php:977
+msgid "Popular Posts in"
+msgstr ""
+
+#: inc/customizer.php:984
+msgid ""
+"Leave empty if you do not want a title. The category name always appends the "
+"title"
+msgstr ""
+
+#: inc/customizer.php:1086
+msgid "Cannix: Social Media Settings"
+msgstr ""
+
+#: inc/customizer.php:1087
+msgid ""
+"Enter the full URLs of your social media channels, Leave blank to not use"
+msgstr ""
+
+#: inc/customizer.php:1123
+msgid "Cannix: Footer Settings"
+msgstr ""
+
+#: inc/customizer.php:1135
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer.php:1136
+msgid "Enter text here to be displayed in the footer"
+msgstr ""
+
+#: inc/customizer.php:1149 inc/customizer.php:1196
+msgid "Display Social Media Icons"
+msgstr ""
+
+#: inc/customizer.php:1162
+msgid "Display Back To Top Link"
+msgstr ""
+
+#: inc/customizer.php:1171
+msgid "Cannix: Slide Out Sidebar Settings"
+msgstr ""
+
+#: inc/customizer.php:1183
+msgid "Display your logo in the Slidebar"
+msgstr ""
+
+#: inc/customizer.php:1209
+msgid "Display Primary Navigation on Desktop"
+msgstr ""
+
+#: inc/customizer.php:1210
+msgid ""
+"Primary Navigation is displayed on mobile devices, check to display on "
+"Desktop AND Mobile"
+msgstr ""
+
+#: inc/customizer.php:1219
+msgid "Cannix: Colour &amp; Font Settings"
+msgstr ""
+
+#: inc/customizer.php:1220
+msgid ""
+"Here you can change the default colour scheme by editing the primary theme "
+"colours."
+msgstr ""
+
+#: inc/customizer.php:1235
+msgid "Primary Theme Colour One"
+msgstr ""
+
+#: inc/customizer.php:1248
+msgid "Primary Theme Colour Two"
+msgstr ""
+
+#: inc/customizer.php:1261
+msgid "Primary Theme Colour Three"
+msgstr ""
+
+#: inc/customizer.php:1274
+msgid "Primary Theme Colour Four"
+msgstr ""
+
+#: inc/customizer.php:1287
+msgid "Primary Theme Colour Five"
+msgstr ""
+
+#: inc/customizer.php:1300
+msgid "Entry Content/Meta Font Colour"
+msgstr ""
+
+#: inc/customizer.php:1316
+msgid "Category Meta Background"
+msgstr ""
+
+#: inc/customizer.php:1328
+msgid "Category Meta Background Transparency"
+msgstr ""
+
+#: inc/customizer.php:1346
+msgid "Category Meta Font Colour"
+msgstr ""
+
+#: inc/customizer.php:1359
+msgid "Comment Count Background"
+msgstr ""
+
+#: inc/customizer.php:1372
+msgid "Comment Count Font Colour"
+msgstr ""
+
+#: inc/customizer.php:1383
+msgid "Body Font"
+msgstr ""
+
+#: inc/customizer.php:1387 inc/customizer.php:1575
+msgid "Open Sans"
+msgstr ""
+
+#: inc/customizer.php:1388 inc/customizer.php:1576
+msgid "Roboto"
+msgstr ""
+
+#: inc/customizer.php:1398
+msgid "Title Font"
+msgstr ""
+
+#: inc/customizer.php:1402 inc/customizer.php:1573
+msgid "Roboto Slab"
+msgstr ""
+
+#: inc/customizer.php:1403 inc/customizer.php:1574
+msgid "Poppins"
+msgstr ""
+
+#: inc/functions-admin.php:48
+msgid "Article Background Colour"
+msgstr ""
+
+#: inc/functions-admin.php:73
+msgid "Choose a background colour for this post"
+msgstr ""
+
+#: inc/functions-admin.php:116
+msgid "Article Entry Font Colour"
+msgstr ""
+
+#: inc/functions-admin.php:141
+msgid "Choose entry font colour for this post"
+msgstr ""
+
+#: inc/widgets.php:25
+msgid "Displays latest or popular posts with image thumbnail and entry meta"
+msgstr ""
+
+#: inc/widgets.php:28
+msgid "Cannix: Posts Widget"
+msgstr ""
+
+#: inc/widgets.php:49 inc/widgets.php:284 inc/widgets.php:465
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets.php:55
+msgid "Number of Posts:"
+msgstr ""
+
+#: inc/widgets.php:61
+msgid "Post Type:"
+msgstr ""
+
+#: inc/widgets.php:63
+msgid "Recent"
+msgstr ""
+
+#: inc/widgets.php:64
+msgid "Popular"
+msgstr ""
+
+#: inc/widgets.php:67
+msgid "Featured"
+msgstr ""
+
+#: inc/widgets.php:75
+msgid "Category: (Can be used with Post Type)"
+msgstr ""
+
+#: inc/widgets.php:93
+msgid "Post IDs: (Enter a comma separated List of post IDs)"
+msgstr ""
+
+#: inc/widgets.php:99
+msgid "Layout:"
+msgstr ""
+
+#: inc/widgets.php:102
+msgid "List First Grid"
+msgstr ""
+
+#: inc/widgets.php:261
+msgid "Display about me widget with image, title and description"
+msgstr ""
+
+#: inc/widgets.php:264
+msgid "Cannix: About Me Widget"
+msgstr ""
+
+#: inc/widgets.php:290
+msgid "About Me:"
+msgstr ""
+
+#: inc/widgets.php:298
+msgid "Avatar Image:"
+msgstr ""
+
+#: inc/widgets.php:300 inc/widgets.php:307
+msgid "Select Image:"
+msgstr ""
+
+#: inc/widgets.php:305
+msgid "Background Image:"
+msgstr ""
+
+#: inc/widgets.php:312
+msgid "Show Social Media Links"
+msgstr ""
+
+#: inc/widgets.php:445
+msgid ""
+"Displays links and Icons of all your social media channels from Social media "
+"Settings"
+msgstr ""
+
+#: inc/widgets.php:448
+msgid "Cannix: Social Widget"
+msgstr ""
+
+#: inc/widgets.php:471
+msgid "Show Social Media Name:"
+msgstr ""
+
+#: inc/widgets.php:477
+msgid ""
+"You can update the social media channels displayed in this widget in the "
+"Social Media Settings of the Customizer"
+msgstr ""
+
+#: index.php:31
+msgid "Latest Posts"
+msgstr ""
+
+#: search.php:58
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: searchform.php:19
+msgid "Search &hellip;"
+msgstr ""
+
+#: sidebar.php:18
+msgid "Blog Sidebar"
+msgstr ""
+
+#: template-parts/page/content-page.php:39
+#: template-parts/post/content-audio.php:216
+#: template-parts/post/content-gallery.php:187
+#: template-parts/post/content-image.php:202
+#: template-parts/post/content-video.php:218
+#: template-parts/post/content.php:200
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/post/content-audio.php:146
+#: template-parts/post/content-gallery.php:116
+#: template-parts/post/content-image.php:134
+#: template-parts/post/content-video.php:147
+#: template-parts/post/content.php:127
+msgid "featured"
+msgstr ""
+
+#: template-parts/post/content-meta.php:80
+msgid "in"
+msgstr ""
+
+#: template-parts/post/single-post-navigation.php:66
+msgid "Previous Post"
+msgstr ""
+
+#: template-parts/post/single-post-navigation.php:94
+msgid "Next Post"
+msgstr ""

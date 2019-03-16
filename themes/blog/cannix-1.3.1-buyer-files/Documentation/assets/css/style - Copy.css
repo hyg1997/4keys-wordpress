@@ -1,0 +1,29 @@
+body {
+	background: #fff;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin:0;
+	padding:0;
+}
+header {
+	background: #2E323C;
+	color: #fff;
+	padding:20px;
+	font-size: 26px;
+	text-align: center
+}
+body > div {
+	padding:20px;
+	margin:auto;
+	width:1000px;
+}
+a {
+	text-decoration: none;
+	color: #808080;
+	font-weight: bold
+}
+.section-highlight {
+	background: #f5f5f5;
+	padding:15px;
+}
